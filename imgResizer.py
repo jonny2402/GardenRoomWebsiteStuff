@@ -6,6 +6,7 @@ import os
 from tkinter import *
 from PIL import Image, ImageTk
 
+
 """
 This script contains two classes: GardenRoomResizer and GardenRoomApp.
 
@@ -25,6 +26,7 @@ The GardenRoomApp class is used to create a GUI that interacts with the GardenRo
 - select_favourite_image(fav_position): selects the favourite image for the garden room.
 - resize_images(): resizes the garden room images and updates the appropriate directories.
 """
+
 
 class GardenRoomResizer:
     def __init__(self):
