@@ -25,8 +25,12 @@ The application window will appear, and you can enter your desired specification
 
 # Workflow
 Download the best few images from a Garden Room's folder on the OneDrive. Unzip the folder and rename it to be 'GardenRoomXXX'. Run imgResizer.py, select the build number from the dropdown list, and click load images. The Input the location and dimensions of the build eg. Newark 3m x 3m. Then click the best looking image, and it should get a very light blue highlighted edge around it. Click resize images.
+
 The finished resized images will be stored in the 'Gallery', 'Home' and 'testimonialsTODO' folders.
 Next, open the garden room's specifications from quote file one the OneDrive and then run specText.py. Enter the specifications, click 'Save File', name the file 'GardenRoomXXX.txt', and the file will be saved in the folder named 'temp'.
+
 Next open Jpegmini and drag all of the images into it in order to shrink their size.
+
 To upload the images, FTP to the server with FileZilla and go to public.html/img/GardenRoomImages. Upload the file(s) in imgResizer/Home to GardenRoomsHome and the files in imgResizer/Gallery to GardenRoomsGallery.
+
 When a testimonial is released on Facebook/Google etc, copy the text, open testimonialsTODO, paste the text in there, splitting the text into relevant paragraphs. Once saved, upload both the .txt and .jpg files to GardenRoomsTestimonials on the server.
